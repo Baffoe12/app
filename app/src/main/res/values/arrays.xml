@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accident_filter_options">
+        <item>All Reports</item>
+        <item>Alcohol Detected</item>
+        <item>Seatbelt Unfastened</item>
+        <item>High Severity</item>
+    </string-array>
+
+    <string-array name="accident_sort_options">
+        <item>Newest First</item>
+        <item>Oldest First</item>
+        <item>Highest G-Force</item>
+        <item>By Status</item>
+    </string-array>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/statusTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="System Status"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"/>
+
+        <CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:id="@+id/heartRateText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Heart Rate: -- BPM"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/spo2Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SpO2: --%"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/alcoholText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alcohol Level: --"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/accelerationText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Acceleration: -- m/s²"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/seatbeltText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seatbelt: --"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+
+                <TextView
+                    android:id="@+id/engineText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Engine: --"
+                    android:textSize="18sp"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </CardView>
+
+        <Button
+            android:id="@+id/emergencyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Emergency Alert"
+            android:backgroundTint="#FF0000"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

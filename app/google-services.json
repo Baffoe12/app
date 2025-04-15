@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "541415206105",
+    "project_id": "accidentsys-app",
+    "storage_bucket": "accidentsys-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541415206105:android:0757b0b99cfca1076062c8",
+        "android_client_info": {
+          "package_name": "com.example.accidentsys"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK47bkGOOs6OzHBnEW41JOM-0rWGAQ7kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
